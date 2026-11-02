@@ -1,0 +1,6 @@
+:host{display:block;min-height:100vh}
+.toast-stack{position:fixed;z-index:100;right:20px;top:18px;display:grid;gap:8px;max-width:min(420px,calc(100vw - 32px))}
+.toast{display:flex;align-items:flex-start;gap:14px;padding:12px 14px;border:1px solid;border-radius:9px;box-shadow:0 10px 30px #17203318;font-size:12px;line-height:1.5}
+.toast button{border:0;background:none;font-size:18px;line-height:1;color:inherit;cursor:pointer}
+.toast-error{background:#fff7f5;border-color:#f1d3ce;color:#a93e35}
+.toast-success{background:#f0fbf7;border-color:#ccece0;color:#16775f}

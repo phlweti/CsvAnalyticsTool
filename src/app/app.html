@@ -1,0 +1,15 @@
+<router-outlet />
+<div class="toast-stack" aria-live="polite">
+  @if (state.error()) {
+    <div class="toast toast-error" role="alert">
+      <span>{{ state.error() }}</span>
+      <button type="button" aria-label="Dismiss error" (click)="state.error.set('')">×</button>
+    </div>
+  }
+  @if (state.notice()) {
+    <div class="toast toast-success" role="status">
+      <span>{{ state.notice() }}</span>
+      <button type="button" aria-label="Dismiss message" (click)="state.notice.set('')">×</button>
+    </div>
+  }
+</div>
