@@ -22,7 +22,7 @@ Open the URL printed by Angular CLI (usually `http://localhost:4200`), then drop
 - Light/dark/system appearance settings and a saved app-wide accent color
 - Dataset/workspace libraries, CSV/JSON export, and chart/dashboard PNG export
 
-![CSV analytics dashboard overview](./specs/CSV%20Analytics%20Dashboard%Overview.png)
+![CSV analytics dashboard overview](./specs/CSV%20Analytics%20Dashboard%20Overview.png)
 
 ## Commands
 
